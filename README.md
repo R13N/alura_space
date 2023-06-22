@@ -26,3 +26,7 @@
 
 `-> Para rodar as migrations:`
 <p>python manage.py migrate</p>
+
+`-> Para trabalhar com Imagens devemos instalar o Pillow:`
+<p>python3 -m pip install --upgrade pip</p>
+<p>python3 -m pip install --upgrade Pillow</p>
