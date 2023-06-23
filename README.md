@@ -12,6 +12,15 @@
 `-> Para instalar o virtualenv, ferramenta para ambiente virtual:`
 <p>pip install virtualenv</p>
 
+`-> Para iniciar o ambiente virtual:`
+<p>python -m virtualenv .venv</p>
+
+`-> Para criar um app:`
+<p>python manage.py startapp <nome_do_app></p>
+
+`-> Para iniciar o projeto:`
+<p>python manage.py startproject setup .</p>
+
 `-> Para ativar o ambiente venv:`
 <p>venv\Scripts\activate</p>
 
@@ -20,6 +29,9 @@
 
 `-> Para instalar as dependências:`
 <p>pip install -r requirements.txt</p>
+
+`-> Para saber as dependências do projeto:`
+<p>pip freeze</p>
 
 `-> Para criar as migrations:`
 <p>python manage.py makemigrations</p>
